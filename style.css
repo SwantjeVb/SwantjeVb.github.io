@@ -74,6 +74,25 @@ nav ul li a.active {
   font-weight: 500;
 }
 
+nav .nav-footer {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+ 
+nav .nav-footer a {
+  font-size: 0.78rem;
+  color: var(--subtle);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.15s;
+}
+ 
+nav .nav-footer a:hover,
+nav .nav-footer a.active {
+  color: var(--muted);
+}
+
 /* ── Main ────────────────────────────────────── */
 main {
   flex: 1;
